@@ -1,3 +1,12 @@
+# Screenshot
+## Login Page
+![Login Page](./login-page.png)
+
+## Dashboard
+![Dashboard](./dashboard-page.png)
+
+---
+
 # Vessel Optimization Platform - Maritime SaaS Application
 
 A full-stack maritime Vessel Optimization Platform built to help Operators, Charterers, Technical Managers, and Masters monitor vessel performance, analyze voyage efficiency, identify commercial claim opportunities, and optimize voyage routes based on weather and operational conditions.
@@ -90,16 +99,6 @@ Supported Roles:
 * Vessel Master
 * Technical Manager
 * Charterer
-
----
-
-# Screenshot
-## Login Page
-![Login Page](./login-page.png)
-
-## Dashboard
-![Dashboard](./dashboard-page.png)
-
 
 
 ---
