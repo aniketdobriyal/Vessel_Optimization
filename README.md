@@ -93,35 +93,9 @@ Supported Roles:
 
 ---
 
-# Screenshots
+# Screenshot
+![Home Page](Screenshot 2026-06-03 134943.png)  
 
-## Login Portal
-
-Secure maritime operations gateway with role-based authentication.
-
-## Fleet Dashboard
-
-Fleet KPIs, voyage monitoring, alerts, and operational analytics.
-
-## Vessel Management
-
-Manage vessel details, performance scores, and voyage assignments.
-
-## Voyage Management
-
-Create voyages, monitor progress, and track voyage performance.
-
-## Performance Analytics
-
-Speed analysis, fuel analysis, weather impact analysis, and claims assessment.
-
-## Route Optimization
-
-Compare alternative routes and identify fuel-saving opportunities.
-
-## Vessel Performance Reports
-
-Generate detailed voyage performance reports and export to PDF.
 
 ---
 
