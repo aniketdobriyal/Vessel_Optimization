@@ -94,7 +94,12 @@ Supported Roles:
 ---
 
 # Screenshot
-![Home Page](Screenshot 2026-06-03 134943.png)  
+## Login Page
+![Login Page](./login-page.png)
+
+## Dashboard
+![Dashboard](./dashboard-page.png)
+
 
 
 ---
