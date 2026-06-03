@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-wrapper {
+  display: grid;
+  grid-template-columns: 2.8fr 1fr;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+/* LEFT SLIDER */
+
+.hero-slider {
+  height: 500px;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.slide-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 80px;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 2;
+  max-width: 500px;
+}
+
+.sale-tag {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.slide-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.slide-content h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.slide-content p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.shop-btn {
+  border: none;
+  background: #0d6efd;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+/* RIGHT CARDS */
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+ 
+}
+
+.offer-card {
+  flex: 1;
+  border-radius: 20px;
+  padding: 25px;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-card img {
+  width: 90px;
+  object-fit: contain;
+}
+
+.purple {
+  background: linear-gradient(135deg, #675cff, #b14eff);
+}
+
+.orange {
+  background: linear-gradient(135deg, #ff8456, #ffb347);
+}
+
+.offer-card span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.offer-card h3 {
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+.offer-card button {
+  border: none;
+  background: transparent;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Swiper buttons */
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+}
+
+.swiper-pagination-bullet {
+  background: white !important;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+  .hero-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .slide-content {
+    left: 30px;
+    max-width: 300px;
+  }
+
+  .slide-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .slide-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-slider,
+  .slide {
+    height: 400px;
+  }
+}

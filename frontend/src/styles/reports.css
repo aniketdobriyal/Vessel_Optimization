@@ -1,0 +1,126 @@
+/* Report upload & generation style tokens */
+
+.reports-tab-container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--border-maritime);
+  padding-bottom: 8px;
+}
+
+.report-tab-btn {
+  padding: 6px 12px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  border-radius: 4px;
+  transition: all var(--transition-fast);
+}
+
+.report-tab-btn:hover {
+  color: var(--color-cyan);
+}
+
+.report-tab-btn.active {
+  background: rgba(0, 240, 255, 0.1);
+  color: var(--color-cyan);
+  border: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+/* Upload drag and drop box */
+.dropzone-container {
+  border: 2px dashed rgba(0, 240, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(12, 19, 41, 0.35);
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.dropzone-container:hover {
+  border-color: var(--color-cyan);
+  background: rgba(0, 240, 255, 0.03);
+}
+
+.dropzone-icon {
+  color: var(--color-cyan);
+}
+
+/* Alerts box styling */
+.alert-card-item {
+  display: flex;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  border-left: 3px solid transparent;
+}
+
+.alert-card-item.danger {
+  background: rgba(244, 63, 94, 0.08);
+  border-color: var(--color-status-alert);
+}
+
+.alert-card-item.warning {
+  background: rgba(245, 158, 11, 0.08);
+  border-color: var(--color-status-anchor);
+}
+
+.alert-card-item.info {
+  background: rgba(59, 130, 246, 0.08);
+  border-color: var(--color-status-port);
+}
+
+.alert-title {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.alert-desc {
+  color: var(--text-secondary);
+}
+
+/* Printable PDF Wrapper */
+.printable-report {
+  background: #ffffff;
+  color: #121824;
+  padding: 30px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.printable-report h2, .printable-report h3 {
+  color: #0b1524;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 4px;
+}
+
+.printable-report table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.printable-report th, .printable-report td {
+  border: 1px solid #cbd5e1;
+  padding: 8px;
+  text-align: left;
+}
+
+.printable-report th {
+  background: #f1f5f9;
+  font-weight: 600;
+}

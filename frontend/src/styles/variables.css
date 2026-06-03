@@ -1,0 +1,47 @@
+:root {
+  /* Maritime Dark Theme System */
+  --bg-maritime-deep: #050814;
+  --bg-maritime-sidebar: #080d20;
+  --bg-maritime-card: rgba(12, 19, 41, 0.65);
+  --bg-maritime-surface: #0a1128;
+  --bg-maritime-hover: #121e3f;
+  --bg-maritime-active: #1a2a56;
+
+  /* Accent Neon and Brand Tones */
+  --color-cyan: #00f0ff;
+  --color-cyan-glow: rgba(0, 240, 255, 0.15);
+  --color-cyan-dim: #0ea5e9;
+  --color-teal: #14b8a6;
+  --color-blue: #3b82f6;
+
+  /* Standard Border & Glassmorphic Highlights */
+  --border-maritime: rgba(0, 240, 255, 0.12);
+  --border-maritime-medium: rgba(0, 240, 255, 0.25);
+  --border-maritime-focus: #00f0ff;
+  --glass-glow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  /* Status Indication Hues */
+  --color-status-sea: #10b981;       /* At Sea / Safe / In progress */
+  --color-status-port: #3b82f6;      /* In Port / Completed */
+  --color-status-anchor: #f59e0b;    /* Anchored / Moderate */
+  --color-status-alert: #f43f5e;     /* Claims / Storms / High Risk */
+
+  /* Text Typography Colors */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #475569;
+  --text-dark: #020617;
+
+  /* Fonts */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-title: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Layout Constants */
+  --sidebar-width: 250px;
+  --sidebar-collapsed-width: 70px;
+  --header-height: 60px;
+  
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}

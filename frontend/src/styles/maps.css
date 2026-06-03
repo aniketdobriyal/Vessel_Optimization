@@ -1,0 +1,86 @@
+/* Interactive Map Styling */
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #020612;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-maritime);
+}
+
+.map-canvas-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.map-tooltip {
+  position: absolute;
+  background: var(--bg-maritime-surface);
+  border: 1px solid var(--color-cyan);
+  border-radius: 6px;
+  padding: 8px 12px;
+  box-shadow: var(--glass-glow);
+  z-index: 10;
+  pointer-events: none;
+  font-size: 11px;
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  animation: fadeIn var(--transition-fast) forwards;
+}
+
+.vessel-pin {
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.vessel-pin:hover {
+  filter: drop-shadow(0 0 6px var(--color-cyan));
+}
+
+.map-legend {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: rgba(12, 19, 41, 0.85);
+  border: 1px solid var(--border-maritime);
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+}
+
+.legend-color {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* Route track overlays */
+.track-planned {
+  stroke-dasharray: 4 4;
+}
+
+.weather-risk-overlay {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(12, 19, 41, 0.85);
+  border: 1px solid var(--border-maritime);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 10px;
+  color: var(--text-secondary);
+}
